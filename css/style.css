@@ -54,3 +54,33 @@
 .top-banner h1 span{
     color: #21B573;
 }
+
+/*middle-part style*/
+.middle-part{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*about-box style*/
+.about-box{
+    background-color: #F8FFFB;
+    text-align: center;
+    padding: 5%;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.about-box img{
+    width: 68px;
+    height: 76px;
+    margin-bottom: 1rem;
+}
+
+.about-box:hover{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.about-box h5{
+    font-weight: 550;
+}
