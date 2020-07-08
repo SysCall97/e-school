@@ -21,15 +21,15 @@
 /*btn-primary style*/
 .btn-primary{
     color: white;
-    background-color: #21B573;
-    width: 10rem;
+    background-color: #21B573 !important;
+    width: 8em;
     height: auto;
     border-radius: 33px;
     border: none;
 }
 
 .btn-primary:hover{
-    background-color: #21B573;
+    background-color: #21C973;
 }
 
 /*row style*/
@@ -56,10 +56,18 @@
 }
 
 /*middle-part style*/
-.middle-part{
+.middle-part, .testimonial-section{
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
+}
+
+.middle-part h5{
+    color: #413960;
+}
+
+.middle-part p{
+    color: #585859;
 }
 
 /*about-box style*/
@@ -67,8 +75,8 @@
     background-color: #F8FFFB;
     text-align: center;
     padding: 5%;
-    margin-top: 2rem;
     border-radius: 10px;
+    margin-top: 2rem;
 }
 
 .about-box img{
@@ -78,9 +86,132 @@
 }
 
 .about-box:hover{
+    background-color: #fff;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .about-box h5{
     font-weight: 550;
 }
+
+/*course-section style*/
+.course-section, .testimonial-section{
+    margin-top: 5rem;
+}
+
+/*card style*/
+.card{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.card-img-top{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-body .btn{
+    margin-top: 1rem;
+}
+
+.card-footer img{
+    width: 24px;
+    height: 24px;
+    margin-right: 2%;
+}
+
+.card-body p, .card-footer p{
+    font-size: smaller;
+    margin-bottom: 0;
+}
+
+.card-footer{
+    background-color: #fff;
+    border-top: 0;
+}
+
+/*testimonial-section*/
+.testimonial-section{
+    color: #000;
+    margin-bottom: 10%;
+}
+
+.testimonial-section h2{
+    margin-bottom: 2%;
+}
+
+.testimonial-section p{
+    width: 70%;
+}
+
+.client-img{
+    width: 20%;
+}
+
+/*footer*/
+footer{
+    background: #282531;
+    color: #fff;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*Extra social link*/
+.social{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.social-col{
+    padding-left: calc(1rem-5px);
+    padding-right: 1rem;
+}
+
+.stay-connected{
+    transform: translateX(calc(1rem-1px));
+}
+
+.social a{
+    font-size: 3em;
+    padding: 5px;
+  }
+  
+  .fa-facebook{
+    color: #3b5998;
+  }
+  
+  .fa-twitter{
+    color: #00aced;
+  }
+  
+  .fa-google-plus-g{
+    color: #dd4539;
+  }
+  
+  .fa-instagram{
+    color: #517fa8;
+  }
+  
+  .fa-youtube{
+    color: #bb0000;
+  }
+  
+  .fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover{
+    color: #999;
+  }
+
+  /*copyright*/
+  footer small{
+      padding-bottom: 20px;
+  }
